@@ -5,7 +5,13 @@ const persons = [
     { name: "tala baba", id: "20" },
 ]
 const person = persons.map(per => {
-    return per.id *2
+    return per.id * 2
 })
 
 console.log(person)
+
+const number = [1, 2, 3, 4, 5, 60, 50]
+
+const largest = number.filter(number => number > 10)
+
+console.log(largest)
